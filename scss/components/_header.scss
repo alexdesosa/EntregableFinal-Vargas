@@ -1,0 +1,44 @@
+@import "./font";
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 0.50rem;
+    position: sticky;
+}
+
+.first-hd{
+    display: flex;
+    align-items: center;
+}
+
+.second-hd{
+    display: flex;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+}
+
+.links li{
+    padding: 0.25rem 0.7rem;
+    gap: 1rem;
+    list-style: none;
+}
+
+.link:hover{
+color: rgb(135, 135, 135);
+}
+
+.links a{
+    text-decoration: none;
+}
+
+.logo {
+    padding-left: 1rem;
+    border-radius: 0.75rem;
+}
+

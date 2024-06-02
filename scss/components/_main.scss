@@ -1,0 +1,59 @@
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.button {
+    width: 100%;
+    background-color: rgb(159, 159, 159);
+    border-radius: .2rem;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.main-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-paragraph{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1.5rem;
+}
+
+.introduccion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.button-nombre{
+    border-radius: 1.5rem;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.button-nombre:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+input {
+    padding: 0.5rem 1rem;
+}

@@ -1,0 +1,123 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: rgb(255, 255, 255);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  border-radius: 0.5rem;
+  position: sticky;
+}
+
+.first-hd {
+  display: flex;
+  align-items: center;
+}
+
+.second-hd {
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+}
+
+.links li {
+  padding: 0.25rem 0.7rem;
+  gap: 1rem;
+  list-style: none;
+}
+
+.link:hover {
+  color: rgb(135, 135, 135);
+}
+
+.links a {
+  text-decoration: none;
+}
+
+.logo {
+  padding-left: 1rem;
+  border-radius: 0.75rem;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.button {
+  width: 100%;
+  background-color: rgb(159, 159, 159);
+  border-radius: 0.2rem;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.main-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-paragraph {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1.5rem;
+}
+
+.introduccion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.button-nombre {
+  border-radius: 1.5rem;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.button-nombre:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+input {
+  padding: 0.5rem 1rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url("./../img/mercado-skyrim.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1000;
+}
+
+/*# sourceMappingURL=style.css.map */
