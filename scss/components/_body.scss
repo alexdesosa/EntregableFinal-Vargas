@@ -4,8 +4,129 @@
 }
 
 body {
-    background: url('./../img/mercado-skyrim.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    z-index: 1000;
+    background-image: url('../assets/img/mercado-skyrim.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+  }
+
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilo para los elementos dentro del carrito */
+#cart-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; /* Aumenta el espaciado entre los productos */
+    padding: 20px;
+}
+
+#cart-section .producto {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+#cart-section .producto img {
+    max-width: 100%;
+}
+
+#cart-section .producto h3 {
+    margin-top: 0;
+}
+
+#cart-section .producto p {
+    margin-bottom: 10px;
+}
+
+#cart-section .producto button {
+    margin-top: 10px;
+}
+
+.buy-button-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px; /* Agrega margen inferior al contenedor del botón Comprar */
+}
+
+#buyButton {
+    background-color: #4CAF50; /* Color de fondo más llamativo */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#buyButton:hover {
+    background-color: #45a049; /* Cambia el color de fondo al pasar el cursor sobre el botón */
+}
+
+#main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .producto {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .producto img {
+    max-width: 100%;
+  }
+  
+  .producto h3 {
+    margin-top: 0;
+  }
+  
+  .producto p {
+    margin-bottom: 10px;
+  }
+  
+  .producto button {
+    margin-top: 10px;
+  }
+  
+  .buy-button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  

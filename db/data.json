@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "nombre": "Armadura de Dragon",
+    "precio": 250,
+    "equipamiento": "Armadura de Placas"
+  },
+  {
+    "id": 2,
+    "nombre": "Espada Dragon",
+    "precio": 150,
+    "equipamiento": "Espada"
+  },
+  {
+    "id": 3,
+    "nombre": "Arco Elfico",
+    "precio": 120,
+    "equipamiento": "Arco"
+  },
+  {
+    "id": 4,
+    "nombre": "Escudo Dragon",
+    "precio": 200,
+    "equipamiento": "Escudo"
+  },
+  {
+    "id": 5,
+    "nombre": "Casco Vikingo",
+    "precio": 100,
+    "equipamiento": "Casco de Guerra"
+  },
+  {
+    "id": 6,
+    "nombre": "Botas Cuero",
+    "precio": 180,
+    "equipamiento": "Botas de Explorador"
+  },
+  {
+    "id": 7,
+    "nombre": "Escudo Elfico",
+    "precio": 220,
+    "equipamiento": "Escudo Mágico"
+  },
+  {
+    "id": 8,
+    "nombre": "Espada Hierro",
+    "precio": 170,
+    "equipamiento": "Espada Larga"
+  },
+  {
+    "id": 9,
+    "nombre": "Armadura de Hierro",
+    "precio": 190,
+    "equipamiento": "Armadura Ligera"
+  },
+  {
+    "id": 10,
+    "nombre": "Espada Acero",
+    "precio": 140,
+    "equipamiento": "Espada de Duelo"
+  },
+  {
+    "id": 11,
+    "nombre": "Armadura de Elfo",
+    "precio": 300,
+    "equipamiento": "Túnica de Seda"
+  }
+]

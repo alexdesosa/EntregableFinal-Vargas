@@ -3,17 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Medieval Inc</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha384-oS8ry+UQJv2llyoM5bFSKDC4JqTIxUONcqKw3mB+S8k5ChP6+dOZKJz1BlhCv0wr" crossorigin="anonymous">
-    <link rel="icon" href="./assets/img/icon.png" type="image/x-icon">
-    <link rel="stylesheet" href="./scss/style.css">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="../assets/img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header>
         <nav class="navbar">
             <div class="first-hd">
-                <img src="./assets/img/icon.png" alt="Icono de la empresa" width="35px" height="35px" class="logo">
+                <img src="../assets/img/icon.png" alt="Icono de la empresa" width="35px" height="35px" class="logo">
             </div>
             <div class="second-hd">
                 <ul class="links">
@@ -23,15 +22,18 @@
             </div>
         </nav>
     </header>
-    <main>
-        
+    <main id="main-content">
+        <section id="cart-section">
+            <!-- Productos del carrito se mostrarán aquí -->
+        </section>
     </main>
     <footer>
         <audio controls autoplay>
-            <source src="./assets/sounds/music.mp3" type="audio/mpeg">
+            <source src="../assets/sounds/music.mp3" type="audio/mpeg">
         </audio>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="./index.js"></script>
+    <script src="../js/carrito.js"></script>
 </body>
 </html>
+
